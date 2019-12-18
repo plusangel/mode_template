@@ -4,7 +4,8 @@ compiler: gcc
 os: linux
 
 before_install:
-  - sudo apt-get update && apt-get install -y cmake
+  - apt-get update
+  - apt-get install -y cmake
   - apt-get clean
 
 script:
