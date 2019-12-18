@@ -4,9 +4,9 @@ compiler: gcc
 os: linux
 
 before_install:
-  - apt-get update
-  - apt-get install -y cmake
-  - apt-get clean
+  - sudo apt-get update
+  - sudo apt-get install -y cmake
+  - sudo apt-get clean
 
 script:
   - chmod +x build.sh
